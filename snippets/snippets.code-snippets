@@ -1,1 +1,19 @@
-{}
+{
+    "Console Log": {
+		"scope": "javascript,typescript",
+		"prefix": "cl",
+		"body": [
+		 "console.log('$1',$2);"
+		],
+		"description": "console log"
+	   },
+
+	"PHP Log": {
+		"scope": "php",
+		"prefix": "log",
+		"body":[
+			"$1this->logInfo('$2'.$3);"
+		],
+		"description": "logInfo"
+	}
+}
